@@ -1,16 +1,21 @@
 
+# Illumina reads-based AMRseq pipeline
+
 Post quality control and assurance, Illumina reads are mapped to reference pathogenic bacterial genome for example
 Mycobacterium tuberculosis H37Rv genome.
 
 ### Software Requirements
+
 #### bwa: https://github.com/lh3/bwa
 #### samtools: http://www.htslib.org/
 #### bcftools: http://www.htslib.org/
 
 ### Software Installation using Anaconda
+
 conda install -y bwa samtools bcftools
 
 ### Reference genome
+
 Herein, I have used Mycobacterium tuberculosis H37Rv genome as the reference genome
 Download reference genome from NCBI for genome assembly: ASM19595v2
 RefSeq assembly accession: GCF_000195955.2
