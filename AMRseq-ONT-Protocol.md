@@ -19,8 +19,10 @@ gunzip GCF_000195955.2_ASM19595v2_genomic.fna.gz
 #### Give reference genome a short name like Reference genome (optional) like MTB2020.fasta
 cp GCF_000195955.2_ASM19595v2_genomic.fna MTB2020.fasta
 
+### Indexing reference genome - MTB2020.fasta for BWA-based mapping
 bwa index MTB2020.fasta
-### BWA mapping of reads to reference genome - MTB2020.fasta
+
+### BWA mapping of ONT reads to reference genome - MTB2020.fasta
 bwa mem -t 8 -x ont2d MTB2020.fasta ONT_1.fastq>ONT_1.sam
 
 ### SAM to BAM conversion
