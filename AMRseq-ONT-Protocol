@@ -1,7 +1,7 @@
 
 
 
-### Variant calling
+### BWA mapping of reads to reference genome - MTB2020.fasta
 bwa mem -t 8 -x ont2d MTB2020.fasta ONT_1.fastq>ONT_1.sam
 
 ### Variant calling
