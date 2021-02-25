@@ -4,8 +4,12 @@
 #### bcftools: http://www.htslib.org/
 
 #### Reference genome
-Herein, I have used Mycobacterium tub
-#### Sequencing reads
+Herein, I have used Mycobacterium tuberculosis H37Rv genome as the reference genome
+Download reference genome from NCBI
+GCF_000195955.2_ASM19595v2_genomic.fasta
+
+#### Give reference genome a short name like Reference genome (optional) like MTB2020.fasta
+cp GCF_000195955.2_ASM19595v2_genomic.fasta MTB2020.fasta
 
 ### BWA mapping of reads to reference genome - MTB2020.fasta
 bwa mem -t 8 -x ont2d MTB2020.fasta ONT_1.fastq>ONT_1.sam
