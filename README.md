@@ -4,6 +4,6 @@ AMRseq - Whole genomic sequencing of Bacterial pathogen for unravelling anti-mic
 
 AMRseq is currently using two different next-generation sequencing technologies
 
-### a. Illumina 
+### a. Illumina - https://github.com/drabhishekkumar/AMRseq/blob/main/AMRseq_Illumina_Pipeline.md
 
-### b. Nanopore
+### b. Nanopore - https://github.com/drabhishekkumar/AMRseq/blob/main/AMRseq_ONT_Pipeline.md
