@@ -1,10 +1,10 @@
 ### Requirements
 #### bwa: https://github.com/lh3/bwa
-#### samtools
-#### bcftools
+#### samtools: http://www.htslib.org/
+#### bcftools: http://www.htslib.org/
 
 #### Reference genome
-
+Herein, I have used Mycobacterium tub
 #### Sequencing reads
 
 ### BWA mapping of reads to reference genome - MTB2020.fasta
