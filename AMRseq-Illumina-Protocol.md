@@ -1,3 +1,7 @@
+
+Post quality control and assurance, Illumina reads are mapped to reference pathogenic bacterial genome for example
+Mycobacterium tuberculosis H37Rv genome.
+
 ### Software Requirements
 #### bwa: https://github.com/lh3/bwa
 #### samtools: http://www.htslib.org/
@@ -34,15 +38,15 @@ bwa index MTB2020.fasta
 
 bwa mem -t 8 MTB2020.fasta Illumina_R1.fastq.gz Illumina_R2.fastq.gz>Illumina.sam
 
-### SAM to BAM conversion
+### Illumina-based SAM to BAM conversion
 
 samtools view -hSbo Illumina.bam Illumina.sam
 
-### BAM file sorting
+### Illumina-based BAM file sorting
 
 samtools sort Illumina.bam -o Illumina.sorted.bam
 
-### BAM file indexing
+### Illumina-based BAM file indexing
 
 samtools index Illumina.sorted.bam
 

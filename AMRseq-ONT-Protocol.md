@@ -1,3 +1,6 @@
+Post quality control and assurance, ONT reads are mapped to reference pathogenic bacterial genome for example
+Mycobacterium tuberculosis H37Rv genome.
+
 ### Software Requirements
 #### bwa: https://github.com/lh3/bwa
 #### samtools: http://www.htslib.org/
