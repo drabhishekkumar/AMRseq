@@ -1,8 +1,10 @@
-### Requirements
+### Software Requirements
 #### bwa: https://github.com/lh3/bwa
 #### samtools: http://www.htslib.org/
 #### bcftools: http://www.htslib.org/
 
+### Software Installation using Anaconda 
+conda install -y bwa samtools bcftools
 #### Reference genome
 Herein, I have used Mycobacterium tuberculosis H37Rv genome as the reference genome
 Download reference genome from NCBI for
