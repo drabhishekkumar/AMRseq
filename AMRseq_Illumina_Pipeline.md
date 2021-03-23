@@ -57,4 +57,4 @@ samtools index Illumina.sorted.bam
 
 ### Variant calling using bcftools
 
-/Users/abhishek/BioBin/bcftools-1.6/bcftools mpileup -Ovu -f ../MTB2020.fasta Illumina.sorted.bam | /Users/abhishek/BioBin/bcftools-1.6/bcftools call --ploidy 1 -vm -Ov > Illumina_variants.vcf
+~BioBin/bcftools-1.6/bcftools mpileup -Ovu -f ../MTB2020.fasta Illumina.sorted.bam | ~/BioBin/bcftools-1.6/bcftools call --ploidy 1 -vm -Ov > Illumina_variants.vcf
